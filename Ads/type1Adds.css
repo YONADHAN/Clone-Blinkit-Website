@@ -1,0 +1,19 @@
+.type1Container {
+    width: 100vw;
+    height: 365px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns:repeat(10, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding-right: 1rem;
+}
+.type1Container div{
+    width: 120px;
+    height: 176px;
+    background-color: green;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+    background-image: url("https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=225/layout-engine/2022-11/Slice-3_9.png");
+}
